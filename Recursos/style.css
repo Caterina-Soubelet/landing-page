@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Slabo+27px&display=swap');
+
+
+:root {
+    --background:
+    --salmón oscuro:#E9967A;
+    --celestito: #88b79a;
+    --negro:#222222;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: var(--negro);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    padding: 0px 30px;
+    /* para fixear */
+    position: fixed;
+    top: 0;
+    z-index: 2;
+
+}
+
+.logo {
+    height: 60%;
+    float: left;
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+
+}
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    gap: 150px
+}
+.navbar-list {
+    gap: 70px
+    
+}
+
+.navbar-list, a {
+    text-decoration: none;
+    color:snow;
+    font-weight: 500;
+}
+
+
+.navbar-list, li:first-child > a {
+    font-weight: 600;
+}
+
+.navbar-list, li:nth-child(3) >a {
+    color:red;
+    font-weight: 600;
+}
+
+
+.carrito-icon {
+    font-weight: 600;
+    border-radius: 50px;
+    height: 49px;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    color:aliceblue;
+    cursor: pointer;
+
+}
+
+/* empieza el body */
+body {
+    background-color:lightgoldenrodyellow;
+
+}
