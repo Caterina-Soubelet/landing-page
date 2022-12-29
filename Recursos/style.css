@@ -6,6 +6,7 @@
     --salmón oscuro:#E9967A;
     --celestito: #88b79a;
     --negro:#222222;
+    --violeta: #BA55D3;
 }
 
 
@@ -37,8 +38,8 @@ header {
 .logo {
     height: 60%;
     float: left;
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     margin-right: 1em;
 
 }
@@ -88,7 +89,98 @@ header {
 }
 
 /* empieza el body */
-body {
+main {
     background-color:lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:azure;
+    width: 100%;
 
+}
+
+/* hero */
+
+#hero {
+margin-top: 65px;
+padding: 70px 5;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    display: flex;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color:deeppink;
+    
+    
+}
+
+.hero-info p {
+    font-size: 20px;
+    padding: 15px 0px;
+    width: 250px;
+    font-family:'Courier New', Courier, monospace;
+    width: 70%;
+    color:var(--negro);
+
+}
+.hero-info a {
+    color: antiquewhite;
+    background-color:darkorange;
+    width: 150px;
+    margin: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+
+.hero-card {
+    width: 400px;
+    padding: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20 px;
+
+}
+/* info */
+#info {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+#info h2 {
+    font-size: 30px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: var(--violeta);
+    text-align: center;
 }
