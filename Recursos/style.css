@@ -120,7 +120,7 @@ align-items: center;
 }
 
 .hero-info h1 {
-    font-size: 50px;
+    font-size: 30px;
     width: 80%;
     display: flexbox;
     min-width: 500px;
