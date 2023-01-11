@@ -6,25 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calú Jeans</title>
     <link rel="stylesheet" href="./Recursos/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <header>
-      <img src="./Recursos/Logo-calu.png" alt="Logo de Calú" class="logo" />
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li><a href="">Inicio</a></li>
-          <li><a href="">SS'23</a></li>
-          <li><a href="">SALE!</a></li>
-          <li><a href="">Iniciar sesión</a></li>
-        </ul>
-        <!-- agregar input y label -->
-        <img
-          src="./Recursos/carrito.png"
-          alt="Carrito de compras"
-          class="carrito-icon"
-        />
-      </nav>
-    </header>
     <main>
       <!-- hero -->
       <section id="hero">
@@ -37,7 +27,7 @@
             tenemos para vos, nuestras ofertas y formas de envio.
           </p>
           <div class="hero-a">
-            <a href=""> Catálogo</a>
+            <a href="" class=""> Catálogo</a>
             <a href=""> Sobre nosotros</a>
           </div>
         </div>
@@ -50,11 +40,69 @@
         </div>
       </section>
 
+      <header>
+        <img src="./Recursos/Logo-calu.png" alt="Logo de Calú" class="logo" />
+        <nav class="navbar">
+          <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" id="toggle-menu" />
+          <ul class="navbar-list">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">SS'23</a></li>
+            <li><a href="">SALE!</a></li>
+            <li><a href="">Iniciar sesión</a></li>
+          </ul>
+          <!-- agregar input y label -->
+          <img
+            src="./Recursos/carrito.png"
+            alt="Carrito de compras"
+            class="carrito-icon"
+          />
+        </nav>
+      </header>
+
       <!-- info -->
       <section id="info">
         <h2>
           ¿Estás buscando unos pants para esta temporada? Elegí tu favorito.
         </h2>
+        <h4>
+          Como empresa estamos comprometidos con el esfuerzo y la dedicación,
+          <br />
+          chequeá nuestras ventajas:
+        </h4>
+        <div class="info-cards-container">
+          <div class="info-card">
+            <img
+              src="./info/medio - Editado.png"
+              alt=" icono verde a favor del medio ambiente"
+            />
+            <h3>¡Packaging eco friendly!</h3>
+            <p>
+              Todos nuestras bolsas son sustentables, ecológicas y
+              biodegradable, fabricadas con papel de caña de azúcar.
+            </p>
+          </div>
+          <div class="info-card">
+            <img src="./info/trabajo.png" alt="icono de de manos" />
+            <h3>¡En la unión está la fuerza!</h3>
+            <p>
+              Incentivamos el trabajo en equipo, al complementar las habilidades
+              y los talentos, aportamos confianza y pertenencia individual,<br />
+              ¡Logrando un servicio óptimo!.
+            </p>
+          </div>
+          <div class="info-card">
+            <img
+              src="./info/caja-de-regalo.png"
+              alt="icono de caja de regalo con moño"
+            />
+            <h3>¡Que lo cumplas feliz!</h3>
+            <p>
+              ¡SII! ¡Festejamos con vos, y por eso deseamos que empieces de 10
+              tu día con nuestro código del 20 % de descuento!.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
   </body>
