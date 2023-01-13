@@ -1,0 +1,191 @@
+
+@media (max-width: 992px){
+   
+ .hero-info {
+   align-items: center;
+   text-align: center;
+   width: 100%;
+   gap:30px;
+   justify-content: center;
+    
+  }
+.heador img {
+  display:flex;
+  width: 100%;
+
+}
+ .hero-info h1 {
+   width: 90%;
+   display: block;
+   
+  }
+
+  .hero-info p {
+   width: 60%;
+   max-width: 600px;
+        
+  } 
+  
+  .button-container {
+   justify-content: center;
+  }
+
+
+
+  .hero-card img {
+     display: none;
+  }
+
+  main {
+    text-align: center;
+    width: 90%;
+    align-items: center;
+     
+   }
+  #product h2 {
+  display:block;
+   width: 100%;
+  }
+
+  /* categorias */
+  .categories {
+    flex-direction: column;
+    max-width: 390px;
+  
+  }
+
+  .category {
+    width:230px;
+    display: none;
+  }
+
+  #info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+
+  }
+  #info h4 {
+    width: 80%;
+    text-align: center;
+   max-width: 600px;
+  }
+  .info-cards-container {
+    flex-direction: column;
+    align-content: center;
+
+
+  }
+  .info-card {
+    flex-direction: column;
+  }
+
+
+  .info-card img {
+    width:100%;
+  }
+}
+
+
+@media (max-width:992px) {
+       
+  .navbar-list {
+   position: absolute;
+   top: 67px;
+   width: 100%;
+   font-size: 20px;
+   height: calc(100vh - 67px);
+   flex-direction: column;
+   background-color: #222222;
+   border: 2px solid #949494;
+   align-items: center;
+   justify-content: center;
+   transform: translatex(200%);
+   left: 0; 
+  }
+   
+  
+  #toggle-menu:checked + 
+  .navbar-list {
+    transform: translatex(0%);
+  }
+
+  /* product */
+
+  #product {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .product-info {
+    text-align: center;
+    display:flex;
+    width:80%;
+  }
+
+  .category {
+    display:none;
+  }
+
+  
+/* footer */
+.pie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.header-pie {
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.section h2 {
+  font-size: 17px;
+}
+.form-pie {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  
+}
+}
+
+#about {
+    font-size:16px;
+}
+
+
+
+@media (max-width:480px) {
+  
+  
+  .form-pie {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:768px) {
+
+  label {
+    display:none;
+  }
+
+
+  }
+  /* contacto y mapa */
+  

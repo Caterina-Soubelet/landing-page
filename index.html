@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calú Jeans</title>
+    <link rel="stylesheet" href="./mediaqueries.css" />
     <link rel="stylesheet" href="./Recursos/style.css" />
     <link
       rel="stylesheet"
@@ -28,7 +29,7 @@
           </p>
           <div class="hero-a">
             <a href="" class=""> Catálogo</a>
-            <a href=""> Sobre nosotros</a>
+            <a href=""> Sobre Nosotros</a>
           </div>
         </div>
 
@@ -40,17 +41,20 @@
         </div>
       </section>
 
-      <header>
+      <header class="header">
         <img src="./Recursos/Logo-calu.png" alt="Logo de Calú" class="logo" />
+
         <nav class="navbar">
           <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
           <input type="checkbox" id="toggle-menu" />
+
           <ul class="navbar-list">
             <li><a href="">Inicio</a></li>
             <li><a href="">SS'23</a></li>
             <li><a href="">SALE!</a></li>
             <li><a href="">Iniciar sesión</a></li>
           </ul>
+
           <!-- agregar input y label -->
           <img
             src="./Recursos/carrito.png"
@@ -61,9 +65,9 @@
       </header>
       <!-- productos -->
 
-      <section id="products">
+      <section id="product">
         <!-- Margin final -->
-        <div style="margin-bottom: 15 rem">
+        <div class="product-info" style="margin-bottom: 15 rem">
           <h2>
             ¿Estás buscando unos pants para esta temporada?<br />
             Elegí tu favorito.
@@ -83,6 +87,7 @@
           <!-- product 1-->
           <div class="product">
             <img
+              class="jeans"
               src="./Productos/sofia.jpg"
               alt="Pantalón de jeans tiro alto, color azul."
             />
@@ -169,6 +174,7 @@
             </div>
           </div>
         </div>
+        <button class="btn-mas" name="button">Ver más</button>
       </section>
 
       <!-- info -->
@@ -212,6 +218,54 @@
           </div>
         </div>
       </section>
+
+      <!-- contacto y mapa -->
     </main>
+    <footer class="pie">
+      <div class="header-pie">
+
+          <div class="redes">
+            <span class="fb"><i class="fa-brands fa-facebook"></i></span>
+            <span class="in"><i class="fa-brands fa-instagram"></i></span>
+            <span class="wpp"><i class="fa-brands fa-whatsapp"></i></span>
+          </div>
+          <div class="logo">
+            <img src="./Recursos/Logo-calu.png" alt="logo de calu" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="section">
+        <div>
+          <h2>Contacto</h2>
+          <a href="#">&#8211; Calú Jeans, Argentina.</a>
+          <a href="#">&#8211; +54 11 1234-5567</a>
+          <a href="#">&#8211; administracion.calu@gmail.com</a>
+        </div>
+        <div>
+          <h2>Información</h2>
+          <a href="#">Sobre nosotros</a>
+          <a href="#">Politica de cambios</a>
+          <a href="#">Promociones</a>
+        </div>
+        <div>
+          <h2>Legal</h2>
+          <a href="#">Política cookies</a>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Terminos y Condiciones</a>
+        </div>
+        <div class="form-pie">
+          <h2>Suscribirse</h2>
+          <form action="">
+            <input type="text" placeholder="Ingrese su Email" />
+            <button type="submit">Suscribir</button>
+          </form>
+        </div>
+      </div>
+      <div class="derechos">
+      <p>&#169; 2023 Copyright <b>Calú.</b> -Todos los Derechos Reservados</p>
+    
+    </div>
+    </footer>
   </body>
 </html>
