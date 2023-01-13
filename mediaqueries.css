@@ -4,16 +4,13 @@
  .hero-info {
    align-items: center;
    text-align: center;
+   flex-direction: column;
    width: 100%;
    gap:30px;
    justify-content: center;
     
   }
-.header img {
-  display:flex;
-  width: 100%;
 
-}
  .hero-info h1 {
    width: 90%;
    display: block;
@@ -21,7 +18,8 @@
   }
   .hero a {
     width: 100%;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .hero-info p {
@@ -42,7 +40,7 @@
 
   main {
     text-align: center;
-    width: 90%;
+    width: 100%;
     align-items: center;
      
    }
@@ -74,7 +72,7 @@
   #info h4 {
     width: 80%;
     text-align: center;
-   max-width: 600px;
+    max-width: 600px;
   }
   .info-cards-container {
     flex-direction: column;
@@ -93,7 +91,7 @@
 }
 
 
-@media (max-width:900px) {
+@media (max-width:780px) {
        
   .navbar-list {
    position: absolute;
@@ -172,7 +170,7 @@
 
 
 
-@media (max-width:480px) {
+@media (max-width:780px) {
   
   
   .form-pie {
@@ -183,7 +181,7 @@
   }
 }
 
-@media (min-width:580px) {
+@media (min-width:200px) {
 
   label {
     display:none;
