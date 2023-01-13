@@ -91,7 +91,7 @@
 }
 
 
-@media (max-width:780px) {
+@media (max-width:800px) {
        
   .navbar-list {
    position: absolute;
@@ -135,33 +135,33 @@
   }
 
   
-/* footer */
-.pie {
+ /* footer */
+  .pie {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-}
-.header-pie {
+  }
+ .header-pie {
   display: flex;
   flex-direction: column;
   gap:40px;
-}
-.section h2 {
+ }
+   .section h2 {
   font-size: 17px;
-}
-.form-pie {
+   }
+   .form-pie {
   width: 100%;
   text-align: center;
   align-items: center;
   justify-content: center;
-}
+ }
 
-.section {
+    .section {
   display: flex;
   flex-direction: column;
   
-}
+   }
 }
 
 #about {
@@ -188,6 +188,6 @@
   }
 
 
-  }
-  /* contacto y mapa */
+}
+ /* contacto y mapa */
   
